@@ -1,6 +1,6 @@
 #!/bin/bash
 
-#SBATCH -p standard 
+#SBATCH -p instructional 
 #SBATCH -n 1 
 #SBATCH -c 5 
 #SBATCH -A rivanna-training 

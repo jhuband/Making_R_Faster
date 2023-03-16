@@ -15,7 +15,7 @@ convert_time_to_hrs <- function(cputime){
 }
 
 
-filename <- "collectedStats.csv"
+filename <- "../Data/collectedStats.csv"
 if (file.exists(filename)) {
    raw_data <- read_delim(filename, delim="|", show_col_types=FALSE)
    N <- nrow(raw_data)
